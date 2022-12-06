@@ -4,9 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="author" content="Tim Geens">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Homepagine | Tim Geens</title>
 </head>
-<body>
-    
+<body class="body">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark" style="background-color: #332F35;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">TIM GEENS</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOMEPAGINA</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CURRICULUM VITAE</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">ERVARINGEN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">HOBBIES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+              </li>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="IMG/foto_tim.jpg" class="d-block mx-lg-auto img-fluid" alt="Foto van Tim" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <p class="lead">Ik ben Tim Geens, ik woon in Turnhout. Ik werk al meer dan 10 jaar in de verkoop, maar ben nu begonnen met de opleiding
+                Graduaat programmeren op Thomas More in Geel. Ik ben iemand met een goed oog voor detail, ik ben stipt en doelgericht.
+                Daarnaast ben ik betrouwbaar, collega’s weten wat ze van me kunnen verwachten.
+                Ik programmeer al 2 jaar als hobby maar wil er nu ook mijn job van maken.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-danger">Contact</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem ;background-color: #4C4550">
+                <img src="IMG/afbeelding_unity_klein.png" class="card-img-top" alt="Een project in Unity">
+                <div class="card-body" >
+                  <h5 class="card-title">Mijn ervaringen</h5>
+                  <p class="card-text">Alle ervaring die ik al heb opgedaan vind je hier.</p>
+                  <a href="#" class="btn btn-danger">Ervaringen</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;background-color: #4C4550">
+                <img src="IMG/wurm_online_1.jpg" class="card-img-top" alt="Ik in Wurm Online">
+                <div class="card-body">
+                  <h5 class="card-title">Mijn hobbies</h5>
+                  <p class="card-text">Kom te weten wat mijn hobbies zijn.</p>
+                  <a href="#" class="btn btn-danger">Hobbies</a>
+                </div>
+              </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;background-color: #4C4550">
+                <img src="IMG/aa_cover_image.jpg" class="card-img-top" alt="Cover afbeelding Ascending Ascension">
+                <div class="card-body">
+                  <h5 class="card-title">Ascending Ascension</h5>
+                  <p class="card-text">Probeer het spelletje dat ik gemaakt heb uit op</p>
+                  <a href="https://thimoca.itch.io/ascending-ascension"  target="_blank" class="btn btn-danger">Itch.io</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; Tim Geens</p>
+      </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
