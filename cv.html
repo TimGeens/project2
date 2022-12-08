@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+    
     <title>Curriculum Vitae | Tim Geens</title>
     <link rel="icon" type="image/x-icon" href="IMG/favicon.ico">
 </head>
@@ -42,6 +45,129 @@
         </div>
       </nav>
 
+      <br><br>
+
+      <h2 style="text-align:center">CV Tim Geens</h2>
+      <br>
+        <h3 style="margin-left: 200px;">Persoonlijke Gegevens</h3>
+        <address class="adress">
+           Tim Geens <br>
+           2300 Turnhout <br>
+           timgeens@msn.com
+        </address>
+        <br><br>
+
+        <div class="table-responsive">
+          <table class="table table-dark table-striped table-hover caption-top" style="width: 73%; margin: auto;">
+            <caption class="caption"><h3>Werkervaring</h3></caption>
+            <tbody>
+              <tr>
+                <td>Bediende verkoper</td>
+                <td>Albert Heijn</td>
+                <td>Turnhout</td>
+                <td>09/2022 – heden</td>
+              </tr>
+              <tr>
+                <td>Bediende Verkoper </td>
+                <td>AD Delhaize</td>
+                <td>Vosselaar/Turnhout</td>
+                <td>02/2011 – 01/2015</td>
+              </tr>
+              <tr>
+                <td>Bediende Verkoper </td>
+                <td>Spar Parkwijk</td>
+                <td>Turnhout</td>
+                <td>09/2010 – 01/2011</td>
+              </tr>
+              <tr>
+                <td>Bediende Verkoper </td>
+                <td>Spar Nieuw Helmond</td>
+                <td>Oostende</td>
+                <td>08/2009 – 08/2010</td>
+              </tr>
+              <tr>
+                <td>Machineoperator</td>
+                <td>Ecover Belgium</td>
+                <td>Malle</td>
+                <td>04/2007 – 12/2008</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <br>
+        <div class="table-responsive">
+          <table class="table table-dark table-striped table-hover caption-top" style="width: 73%; margin: auto;">
+            <caption class="caption"><h3>Studie</h3></caption>
+            <tbody>
+              <tr>
+                <td>Graduaat Programmeren</td>
+                <td>Thomas More Geel</td>
+               <td>2022 – heden</td>
+              </tr>
+              <tr>
+                <td>BSO Brood- en Banketbakkerij</td>
+                <td>VTI Spijker Hoogstraten</td>
+               <td>2005 – 2006</td>
+              </tr>
+              <tr>
+                <td>TSO Houtbewerking</td>
+               <td>VITO-Hoogstraten</td>
+               <td>2000 – 2004</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+          <br>
+          <div class="table-responsive">
+            <table class="table table-dark table-striped table-hover caption-top" style="width: 73%; margin: auto;">
+              <caption class="caption"><h3>Talenkennis</h3></caption>
+              <thead>
+                <tr>
+                  <th scope="col">Taal</th>
+                  <th scope="col">Spreken</th>
+                  <th scope="col">Schrijven</th>
+                  <th scope="col">Lezen</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Nederlands</td>
+                  <td>Moedertaal</td>
+                  <td>Moedertaal</td>
+                  <td>Moedertaal</td>
+                </tr>
+                <tr>
+                  <td>Engels</td>
+                  <td>Uitstekend</td>
+                  <td>Uitstekend</td>
+                  <td>Uitstekend</td>
+                </tr>
+                <tr>
+                  <td>Frans</td>
+                  <td>Matig</td>
+                  <td>Matig</td>
+                  <td>Matig</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        
+        
+
+        <br><br>
+      <div class="carouselWidth">
+        <div class="owl-carousel owl-theme">
+          <div><img src="IMG/aa_screenshot_2.jpg" alt="fsffs"> </div>
+          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
+          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
+          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
+          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
+        </div>
+      </div>
+      
+
+      <br><br><br>
+
       <footer>
         <div class="container">
           <div class="row">
@@ -60,6 +186,29 @@
           </div>
         </div>
       </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
+    
+<script src="vendor/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+<script src="vendor/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    center:true,
+    margin:15,
+    items:1.5,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+</script>
+<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
