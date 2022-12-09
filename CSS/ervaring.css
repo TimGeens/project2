@@ -19,6 +19,12 @@
 .navbar-expand-lg .navbar-collapse {
     margin: 25px;
 }
+
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
 a:link{
     color:white;
 }
