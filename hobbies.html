@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/hobbies.css">
-    <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./CSS/hobbies.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <title>Hobbies | Tim Geens</title>
     <link rel="icon" type="image/x-icon" href="IMG/favicon.ico">
 </head>
-<body class="body">
-    <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark" style="background-color: #332f357f;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">TIM GEENS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body class="body d-flex flex-column min-vh-100">
+    <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark" style="background-color: #332f359c;">
+      <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand">TIM GEENS</a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 navItemsToCenter">
               <li class="nav-item">
@@ -36,17 +36,16 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACT</a>
               </li>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
       
       <br>
-      <div class="container col-xxl-8 px-4 py-5">
+      <div class="container px-4 py-1">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-lg-12">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Programmeren in C#</h1>
+            <h1 class="display-6 lh-1 mb-3">Programmeren in C#</h1>
             <p class="lead">In de eerste Covid lockdown in 2020 kon ik niet gaan werken, en in die anderhalve maand thuis ben ik begonnen met programmeren in de Unity game engine.
               Eerst focuste ik me op YouTube tutorials maar later heb ik een cursus op Udemy (een website die allerhande cursussen aanbied) aangekocht.
               Toen die afgelopen was ben ik aan mijn eigen projectjes begonnen, vooral kleine prototypes waarbij ik me dan focuste op 1 feature.
@@ -55,46 +54,26 @@
         </div>
       </div>
 
-      <div class="container col-xxl-8 px-4 py-5">
+      <div class="container px-4 py-1">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-lg-12">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Gaming</h1>
+            <h1 class="display-6 lh-1 mb-3">Gaming</h1>
             <p class="lead">Ik speel sinds ik jong was al veel videogames, eerst op de Nintendo 64, daarna Gamecube en uiteindelijk op mijn gaming PC.
               De meeste tijd gaat naar MMORPGs zoals The Lord of the Rings Online en Wurm Online, maar ik speel ook graag survival games, 
               RTS-games en shooters met mijn vrienden.</p>
           </div>
-          <div class="col-6 col-sm-8 col-lg-6">
-            <img src="IMG/wurm_online_1.jpg" data-bs-toggle="modal" data-bs-target="#WurmModal" class="d-block mx-lg-auto img-fluid" alt="afbeelding Wurm Online" width="700" height="500" loading="lazy">
+          <div class="col-6 col-sm-4 col-lg-6">
+            <img src="IMG/wurm_online_1.jpg" data-bs-toggle="modal" data-bs-target="#WurmModal" class="d-block mx-lg-auto img-fluid rounded" alt="afbeelding Wurm Online" width="700" height="500" loading="lazy">
           </div>
-          <div class="col-6 col-sm-8 col-lg-6">
-            <img src="IMG/lotro_1.jpg" data-bs-toggle="modal" data-bs-target="#LotroModal" class="d-block mx-lg-auto img-fluid" alt="afbeelding Lotro" width="700" height="500" loading="lazy">
-          </div>
-        </div>
-      </div>
-
-      <div class="modal fade" id="LotroModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" >
-          <div class="modal-content" style="background-color: #4C4550;">
-            <div class="modal-body">
-              <img src="IMG/lotro_1.jpg" class="img-fluid" alt="afbeelding Lotro">
-            </div>
+          <div class="col-6 col-sm-4 col-lg-6">
+            <img src="IMG/lotro_1.jpg" data-bs-toggle="modal" data-bs-target="#LotroModal" class="d-block mx-lg-auto img-fluid rounded" alt="afbeelding Lotro" width="700" height="500" loading="lazy">
           </div>
         </div>
       </div>
 
-      <div class="modal fade" id="WurmModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl" >
-          <div class="modal-content" style="background-color: #4C4550;">
-            <div class="modal-body">
-              <img src="IMG/wurm_online_1.jpg" class="img-fluid" alt="afbeelding Wurm Online">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer>
+      <footer class="mt-auto">
         <div class="container">
-          <div class="row">
+          <div class="row py-4">
             <div class="col">
               &copy; Tim Geens
             </div>
@@ -110,6 +89,27 @@
           </div>
         </div>
       </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
+
+      <div class="modal fade" id="LotroModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background-color: #4C4550;">
+            <div class="modal-body">
+              <img src="IMG/lotro_1.jpg" class="img-fluid" alt="afbeelding Lotro">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="WurmModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-xl" >
+          <div class="modal-content" style="background-color: #4C4550;">
+            <div class="modal-body">
+              <img src="IMG/wurm_online_1.jpg" class="img-fluid" alt="afbeelding Wurm Online">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

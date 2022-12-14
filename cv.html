@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/cv.css">
-    <link rel="stylesheet" href="CSS/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
-    <link rel="stylesheet" href="vendor/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
-    
     <title>Curriculum Vitae | Tim Geens</title>
     <link rel="icon" type="image/x-icon" href="IMG/favicon.ico">
 </head>
-<body class="body">
-    <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark" style="background-color: #332f357f;">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">TIM GEENS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body class="body  d-flex flex-column min-vh-100">
+    <nav class="navbar sticky-top navbar-expand-lg navbar navbar-dark" style="background-color: #332f359c;">
+      <div class="d-md-flex d-block flex-row mx-md-auto mx-0">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand">TIM GEENS</a>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 navItemsToCenter">
               <li class="nav-item">
@@ -39,26 +38,25 @@
               <li class="nav-item">
                 <a class="nav-link" href="contact.html">CONTACT</a>
               </li>
-              </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <br><br>
-
-      <h2 style="text-align:center">CV Tim Geens</h2>
-      <br>
-        <h3 style="margin-left: 200px;">Persoonlijke Gegevens</h3>
-        <address class="adress">
+      <div class="text-center py-4">
+        <h2>CV Tim Geens</h2>
+      </div>
+      
+      <div class="container">
+        <h3>Persoonlijke Gegevens</h3>
+        <address class="adress py-2">
            Tim Geens <br>
            2300 Turnhout <br>
            timgeens@msn.com
         </address>
-        <br><br>
 
-        <div class="table-responsive">
-          <table class="table table-dark table-striped table-hover caption-top" style="width: 73%; margin: auto;">
+        <div class="table-responsive py-3">
+          <table class="table table-dark table-striped table-hover caption-top">
             <caption class="caption"><h3>Werkervaring</h3></caption>
             <tbody>
               <tr>
@@ -94,9 +92,8 @@
             </tbody>
           </table>
         </div>
-        <br>
-        <div class="table-responsive">
-          <table class="table table-dark table-striped table-hover caption-top" style="width: 73%; margin: auto;">
+        <div class="table-responsive py-3">
+          <table class="table table-dark table-striped table-hover caption-top">
             <caption class="caption"><h3>Studie</h3></caption>
             <tbody>
               <tr>
@@ -117,71 +114,59 @@
             </tbody>
           </table>
         </div>
-          <br>
-          <div class="table-responsive">
-            <table class="table table-dark table-striped table-hover caption-top" style="width: 73%; margin: auto;">
-              <caption class="caption"><h3>Talenkennis</h3></caption>
-              <thead>
-                <tr>
-                  <th scope="col">Taal</th>
-                  <th scope="col">Spreken</th>
-                  <th scope="col">Schrijven</th>
-                  <th scope="col">Lezen</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Nederlands</td>
-                  <td>Moedertaal</td>
-                  <td>Moedertaal</td>
-                  <td>Moedertaal</td>
-                </tr>
-                <tr>
-                  <td>Engels</td>
-                  <td>Uitstekend</td>
-                  <td>Uitstekend</td>
-                  <td>Uitstekend</td>
-                </tr>
-                <tr>
-                  <td>Frans</td>
-                  <td>Matig</td>
-                  <td>Matig</td>
-                  <td>Matig</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-
-          <br>
-<div style="margin-left: 200px;">
-  <h3>Vaardigheden</h3>
-  <ul>
-      <li>C#</li>
-      <li>HTML, CSS en Bootstrap</li>
-      <li>Unity Game Engine</li>
-      <li>Box modeling in Blender</li>
-  </ul>
-</div>
-          
-        
-        <br><br>
-
-      <div class="carouselWidth">
-        <div class="owl-carousel owl-theme">
-          <div><img src="IMG/aa_screenshot_2.jpg" alt="fsffs"> </div>
-          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
-          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
-          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
-          <div><img src="IMG/afbeelding_unity_klein.png" alt="fsffs"></div>
+        <div class="table-responsive py-3">
+          <table class="table table-dark table-striped table-hover caption-top">
+            <caption class="caption"><h3>Talenkennis</h3></caption>
+            <thead>
+              <tr>
+                <th scope="col">Taal</th>
+                <th scope="col">Spreken</th>
+                <th scope="col">Schrijven</th>
+                <th scope="col">Lezen</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Nederlands</td>
+                <td>Moedertaal</td>
+                <td>Moedertaal</td>
+                <td>Moedertaal</td>
+              </tr>
+              <tr>
+                <td>Engels</td>
+                <td>Uitstekend</td>
+                <td>Uitstekend</td>
+                <td>Uitstekend</td>
+              </tr>
+              <tr>
+                <td>Frans</td>
+                <td>Matig</td>
+                <td>Matig</td>
+                <td>Matig</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-      </div>
-      
-
-      <br><br><br>
-
-      <footer>
-        <div class="container">
-          <div class="row">
+        <div>
+          <h3>Vaardigheden</h3>
+          <ul>
+              <li>C#</li>
+              <li>HTML, CSS en Bootstrap</li>
+              <li>Unity Game Engine</li>
+              <li>Box modeling in Blender</li>
+          </ul>
+        </div>
+        <div class="carouselWidth py-5">
+          <div class="owl-carousel owl-theme">
+            <div><img src="./IMG/Blender2.jpg" data-bs-toggle="modal" data-bs-target="#Foto1" alt="Executioners Axe gemaakt in Blender"> </div>
+            <div><img src="./IMG/afbeelding_unity_groot.jpg" data-bs-toggle="modal" data-bs-target="#Foto2" alt="project in Unity"></div>
+            <div><img src="./IMG/unity_c_sharp.jpg" data-bs-toggle="modal" data-bs-target="#Foto3" alt="C# code in Unity"></div>
+            <div><img src="./IMG/Blender1.jpg" data-bs-toggle="modal" data-bs-target="#Foto4" alt="Middeleeuwse meubelen gemaakt in Blender"></div>
+            <div><img src="./IMG/aa_screenshot_1.jpg" data-bs-toggle="modal" data-bs-target="#Foto5" alt="Screenshot Ascendig Ascension"></div>
+          </div>
+        </div>
+        <footer class="mt-auto">
+          <div class="row py-4">
             <div class="col">
               &copy; Tim Geens
             </div>
@@ -195,24 +180,73 @@
               </svg>
             </div>
           </div>
-        </div>
-      </footer>
+        </footer>
+      </div>
+        
+
+<div class="modal fade" id="Foto1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl" >
+    <div class="modal-content" style="background-color: #4C4550;">
+      <div class="modal-body">
+        <img src="./IMG/Blender2.jpg" class="img-fluid" alt="Executioners Axe gemaakt in Blender">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Foto2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl" >
+    <div class="modal-content" style="background-color: #4C4550;">
+      <div class="modal-body">
+        <img src="./IMG/afbeelding_unity_groot.jpg" class="img-fluid" alt="afbeelding Unity Game-engine">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Foto3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl" >
+    <div class="modal-content" style="background-color: #4C4550;">
+      <div class="modal-body">
+        <img src="./IMG/unity_c_sharp.jpg" class="img-fluid" alt="C# code in Unity">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Foto4" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl" >
+    <div class="modal-content" style="background-color: #4C4550;">
+      <div class="modal-body">
+        <img src="./IMG/Blender1.jpg" class="img-fluid" alt="Middeleeuwse meubelen gemaakt in Blender">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Foto5" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-xl" >
+    <div class="modal-content" style="background-color: #4C4550;">
+      <div class="modal-body">
+        <img src="./IMG/aa_screenshot_1.jpg" class="img-fluid" alt="Screenshot Ascendig Ascension">
+      </div>
+    </div>
+  </div>
+</div>
     
-<script src="vendor/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="vendor/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
 <script>
 $('.owl-carousel').owlCarousel({
     loop:true,
-    center:true,
-    margin:15,
-    items:1.5,
+    margin:10,
     nav:true,
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:3
+            items:2
         },
         1000:{
             items:3
@@ -220,6 +254,6 @@ $('.owl-carousel').owlCarousel({
     }
 })
 </script>
-<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

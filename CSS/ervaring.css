@@ -3,22 +3,7 @@
     color: whitesmoke;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.navItemsToCenter {
-    position: absolute;
-    top: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-}
-.navbar-brand{
-    font-size: 30px !important;
-    position: absolute;
-    top: 0px;
-    left: 10%;
-    transform: translateX(-50%);
-}
-.navbar-expand-lg .navbar-collapse {
-    margin: 25px;
-}
+
 
 .img-fluid{
     max-width: 100%;
@@ -33,6 +18,3 @@ a:visited{
     color: white;
 }
 
-footer{
-    flex: auto;
-}
