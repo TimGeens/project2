@@ -3,6 +3,9 @@
     color: whitesmoke;
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+.carousel-caption{
+    background: #332f35ad;
+}
 
 a:link{
     color:white;
